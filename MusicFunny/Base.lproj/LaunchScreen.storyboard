@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +16,25 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music Funny" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9u6-cQ-iDE">
+                                <rect key="frame" x="210" y="28" width="180" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.90610683900523559" green="0.092715466651179079" blue="0.85337085572601723" alpha="0.95146276595744683" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="treble-clef.png" translatesAutoresizingMaskIntoConstraints="NO" id="2T7-9c-N5P">
+                                <rect key="frame" x="172" y="172" width="256" height="256"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9u6-cQ-iDE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="68L-RL-max"/>
+                            <constraint firstItem="2T7-9c-N5P" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="XdD-C8-gch"/>
+                            <constraint firstItem="9u6-cQ-iDE" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" symbolic="YES" id="mC3-2o-3r0"/>
+                            <constraint firstItem="9u6-cQ-iDE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nfC-Ax-4Ig"/>
+                            <constraint firstItem="2T7-9c-N5P" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="o9s-9o-qiM"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +42,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="treble-clef.png" width="256" height="256"/>
+    </resources>
 </document>
