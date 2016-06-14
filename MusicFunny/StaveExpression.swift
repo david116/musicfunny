@@ -2,7 +2,7 @@
 //  StaveExpression.swift
 //  MusicFunny
 //
-//  Created by ihefe039 on 16/6/8.
+//  Created by leelei on 16/6/8.
 //  Copyright © 2016年 leelei. All rights reserved.
 //
 
@@ -11,55 +11,55 @@ import Foundation
 struct StaveExpression {
     
     enum Clef:Int {
-        case Treble     // 高音谱号 G谱号
+        case Treble = 0 // 高音谱号 G谱号
         case Bass       // 低音谱号 F谱号
         case Alto       // 中音谱号 C谱号
         case Other      // 保留给 次低音 杯低音 以及谱号在不同位置等其他方式
     }
     
     enum Position: Int{ // 音符画在哪条线，或者哪个间
-        case Top_Line_1 = 1 // 上加一线
-        case Top_Line_2     // 上加二线
-        case Top_Line_3     // 上加三线
-        case Top_Line_4     // 上加四线
-        case Top_Line_5     // 上加五线
-        case Top_Blank_1    // 上加一间
-        case Top_Blank_2    // 上加二间
-        case Top_Blank_3    // 上加三间
-        case Top_Blank_4    // 上加四间
-        case Top_Blank_5    // 上加五间
+        case Top_Line_5 = 1     // 上加五线
+        case Top_Blank_5
+        case Top_Line_4
+        case Top_Blank_4
+        case Top_Line_3
+        case Top_Blank_3
+        case Top_Line_2
+        case Top_Blank_2
+        case Top_Line_1
+        case Top_Blank_1
         
-        case Base_Line_1     // 第一线
-        case Base_Line_2     // 第二线
-        case Base_Line_3     // 第三线
-        case Base_Line_4     // 第四线
-        case Base_Line_5     // 第五线
-        case Base_Blank_1    // 第一间
-        case Base_Blank_2    // 第二间
-        case Base_Blank_3    // 第三间
-        case Base_Blank_4    // 第四间
+        case Base_Line_5        // 第五线
+        case Base_Blank_4
+        case Base_Line_4
+        case Base_Blank_3
+        case Base_Line_3
+        case Base_Blank_2
+        case Base_Line_2
+        case Base_Blank_1
+        case Base_Line_1
         
-        case Bottom_Line_1      // 下加一线
-        case Bottom_Line_2      // 下加二线
-        case Bottom_Line_3      // 下加三线
-        case Bottom_Line_4      // 下加四线
-        case Bottom_Line_5      // 下加五线
         case Bottom_Blank_1     // 下加一间
-        case Bottom_Blank_2     // 下加二间
-        case Bottom_Blank_3     // 下加三间
-        case Bottom_Blank_4     // 下加四间
-        case Bottom_Blank_5     // 下加五间
-        
+        case Bottom_Line_1      // 下加一线
+        case Bottom_Blank_2
+        case Bottom_Line_2
+        case Bottom_Blank_3
+        case Bottom_Line_3
+        case Bottom_Blank_4         
+        case Bottom_Line_4          
+        case Bottom_Blank_5         
+        case Bottom_Line_5
+    
     }
     
-    enum Note:Int { // 音符 C D E F G A B
-        case C_Do       // C
-        case D_Re
-        case E_Mi
-        case F_Fa
-        case G_So
-        case A_La
-        case B_Xi
+    enum Note:String { // 音符 C D E F G A B
+        case C_Do = "C"      // C
+        case D_Re = "D"
+        case E_Mi = "E"
+        case F_Fa = "F"
+        case G_So = "G"
+        case A_La = "A"
+        case B_Xi = "B"
     }
     
     enum Ad:Int {
@@ -78,7 +78,7 @@ struct StaveExpression {
         case Hemidemisemiquaver // 64分
         case Other
     }
-
+    
     var clef: Clef  //
     var note: Note    // 暂时不用
     var ad: Ad

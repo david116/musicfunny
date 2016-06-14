@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B92EB2291D08101600B3D137 /* NoteUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92EB2281D08101600B3D137 /* NoteUtils.swift */; };
-		B95A69ED1D07C0A6002D3D4C /* treble1.png in Resources */ = {isa = PBXBuildFile; fileRef = B95A69EC1D07C0A6002D3D4C /* treble1.png */; };
-		B95A69EF1D07CB30002D3D4C /* bass.png in Resources */ = {isa = PBXBuildFile; fileRef = B95A69EE1D07CB30002D3D4C /* bass.png */; };
 		B95A69F11D07EFFB002D3D4C /* StaveExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95A69F01D07EFFB002D3D4C /* StaveExpression.swift */; };
+		B96A6A551D0FC5DB00E2D4A8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A6A541D0FC5DB00E2D4A8 /* WebViewController.swift */; };
 		B9AC8B951D066E59005FC197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC8B941D066E59005FC197 /* AppDelegate.swift */; };
 		B9AC8B971D066E59005FC197 /* PianoFunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC8B961D066E59005FC197 /* PianoFunnyViewController.swift */; };
 		B9AC8B9A1D066E59005FC197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9AC8B981D066E59005FC197 /* Main.storyboard */; };
@@ -21,8 +19,11 @@
 		B9AC8BC31D068D8B005FC197 /* ExaminationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC8BC21D068D8B005FC197 /* ExaminationViewController.swift */; };
 		B9AC8BC51D069410005FC197 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9AC8BC41D069410005FC197 /* Images.xcassets */; };
 		B9AC8BC71D06A904005FC197 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC8BC61D06A904005FC197 /* CourseViewController.swift */; };
-		B9AC8C051D06C796005FC197 /* treble-clef.png in Resources */ = {isa = PBXBuildFile; fileRef = B9AC8C041D06C796005FC197 /* treble-clef.png */; };
 		B9AC8C091D06CCDF005FC197 /* StaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AC8C081D06CCDF005FC197 /* StaveView.swift */; };
+		DA2757671D1029C100A9AAD8 /* bass.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2757661D1029C100A9AAD8 /* bass.png */; };
+		DA2757691D1029CD00A9AAD8 /* treble-clef.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2757681D1029CD00A9AAD8 /* treble-clef.png */; };
+		DA27576B1D1029D300A9AAD8 /* treble1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA27576A1D1029D300A9AAD8 /* treble1.png */; };
+		DA27576D1D1029F000A9AAD8 /* Music Theory.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DA27576C1D1029F000A9AAD8 /* Music Theory.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B92EB2281D08101600B3D137 /* NoteUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteUtils.swift; sourceTree = "<group>"; };
-		B95A69EC1D07C0A6002D3D4C /* treble1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = treble1.png; path = ../../../../../Downloads/treble1.png; sourceTree = "<group>"; };
-		B95A69EE1D07CB30002D3D4C /* bass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bass.png; path = ../../../../../Downloads/bass.png; sourceTree = "<group>"; };
 		B95A69F01D07EFFB002D3D4C /* StaveExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaveExpression.swift; sourceTree = "<group>"; };
+		B96A6A541D0FC5DB00E2D4A8 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		B9AC8B911D066E59005FC197 /* MusicFunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicFunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AC8B941D066E59005FC197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9AC8B961D066E59005FC197 /* PianoFunnyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoFunnyViewController.swift; sourceTree = "<group>"; };
@@ -63,8 +62,11 @@
 		B9AC8BC21D068D8B005FC197 /* ExaminationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExaminationViewController.swift; sourceTree = "<group>"; };
 		B9AC8BC41D069410005FC197 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B9AC8BC61D06A904005FC197 /* CourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
-		B9AC8C041D06C796005FC197 /* treble-clef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "treble-clef.png"; path = "../../../../../Downloads/treble-clef.png"; sourceTree = "<group>"; };
 		B9AC8C081D06CCDF005FC197 /* StaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaveView.swift; sourceTree = "<group>"; };
+		DA2757661D1029C100A9AAD8 /* bass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bass.png; path = Res/bass.png; sourceTree = SOURCE_ROOT; };
+		DA2757681D1029CD00A9AAD8 /* treble-clef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "treble-clef.png"; path = "Res/treble-clef.png"; sourceTree = SOURCE_ROOT; };
+		DA27576A1D1029D300A9AAD8 /* treble1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = treble1.png; path = Res/treble1.png; sourceTree = SOURCE_ROOT; };
+		DA27576C1D1029F000A9AAD8 /* Music Theory.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Music Theory.pdf"; path = "Res/Music Theory.pdf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,17 +121,18 @@
 				B9AC8B961D066E59005FC197 /* PianoFunnyViewController.swift */,
 				B9AC8B981D066E59005FC197 /* Main.storyboard */,
 				B9AC8B9B1D066E59005FC197 /* Assets.xcassets */,
-				B9AC8C041D06C796005FC197 /* treble-clef.png */,
 				B9AC8B9D1D066E59005FC197 /* LaunchScreen.storyboard */,
 				B9AC8BA01D066E59005FC197 /* Info.plist */,
-				B95A69EC1D07C0A6002D3D4C /* treble1.png */,
-				B95A69EE1D07CB30002D3D4C /* bass.png */,
+				DA2757681D1029CD00A9AAD8 /* treble-clef.png */,
+				DA2757661D1029C100A9AAD8 /* bass.png */,
+				DA27576A1D1029D300A9AAD8 /* treble1.png */,
 				B9AC8BC21D068D8B005FC197 /* ExaminationViewController.swift */,
 				B9AC8BC41D069410005FC197 /* Images.xcassets */,
 				B9AC8BC61D06A904005FC197 /* CourseViewController.swift */,
 				B9AC8C081D06CCDF005FC197 /* StaveView.swift */,
+				DA27576C1D1029F000A9AAD8 /* Music Theory.pdf */,
 				B95A69F01D07EFFB002D3D4C /* StaveExpression.swift */,
-				B92EB2281D08101600B3D137 /* NoteUtils.swift */,
+				B96A6A541D0FC5DB00E2D4A8 /* WebViewController.swift */,
 			);
 			path = MusicFunny;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				TargetAttributes = {
 					B9AC8B901D066E59005FC197 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2PYV42V3G8;
 					};
 					B9AC8BA41D066E5A005FC197 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -257,12 +261,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9AC8B9F1D066E59005FC197 /* LaunchScreen.storyboard in Resources */,
-				B95A69ED1D07C0A6002D3D4C /* treble1.png in Resources */,
-				B9AC8C051D06C796005FC197 /* treble-clef.png in Resources */,
+				DA2757691D1029CD00A9AAD8 /* treble-clef.png in Resources */,
+				DA2757671D1029C100A9AAD8 /* bass.png in Resources */,
 				B9AC8BC51D069410005FC197 /* Images.xcassets in Resources */,
+				DA27576D1D1029F000A9AAD8 /* Music Theory.pdf in Resources */,
 				B9AC8B9C1D066E59005FC197 /* Assets.xcassets in Resources */,
 				B9AC8B9A1D066E59005FC197 /* Main.storyboard in Resources */,
-				B95A69EF1D07CB30002D3D4C /* bass.png in Resources */,
+				DA27576B1D1029D300A9AAD8 /* treble1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9AC8C091D06CCDF005FC197 /* StaveView.swift in Sources */,
-				B92EB2291D08101600B3D137 /* NoteUtils.swift in Sources */,
+				B96A6A551D0FC5DB00E2D4A8 /* WebViewController.swift in Sources */,
 				B9AC8BC31D068D8B005FC197 /* ExaminationViewController.swift in Sources */,
 				B9AC8BC71D06A904005FC197 /* CourseViewController.swift in Sources */,
 				B9AC8B971D066E59005FC197 /* PianoFunnyViewController.swift in Sources */,
@@ -437,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MusicFunny/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.happy.MusicFunny;
@@ -448,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MusicFunny/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.happy.MusicFunny;

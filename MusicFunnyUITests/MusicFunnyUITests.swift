@@ -2,7 +2,7 @@
 //  MusicFunnyUITests.swift
 //  MusicFunnyUITests
 //
-//  Created by ihefe039 on 16/6/7.
+//  Created by leelei on 16/6/7.
 //  Copyright © 2016年 leelei. All rights reserved.
 //
 
